@@ -1,25 +1,66 @@
 <!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="utf-8">
-    <title>
-        Maquettes
-    </title>
-    <script src="https://kit.fontawesome.com/4c06c39dd8.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="GALERIE.css">
-</head>
-
-    <body>
-                    <div id="Bloc">
-                    <h1>She.Is.Art</h1>
-                        <img id="Logo" src="images/Logo Galerie.JPG" alt="Logo galerie">
-                        <p id="Accueil">Accueil </p>
-                        <p id="Galerie">Galerie </p>
-                        <p id="Contact">Contact </p>
-                        <p id="Bienvenue">Bienvenue sur notre site de galerie d’art. Ici vous retrouverez toutes les œuvres de notre artiste Sarah G, artiste amateur et passionnée de peinture. Ce site n’a que pour but de partager sa passion et son art avec vous </p>
-                    </div>
-    </body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ACCUEIL">
+      <div class="div">
+        <div class="overlap-group">
+			<div class="overlap_auto">
+					<div class="overlap-3">
+				<div class="text-wrapper">ACCUEIL</div>
+				<div class="text-wrapper">GALERIE</div>
+				  <div class="text-wrapper">CONTACT</div>
+				</div>
+			</div>
+          <div class="overlap">
+            <div class="overlap-2">
+              <div class="logo"><img class="image" src="img/image-123650291-1.svg" /></div>
+              <div class="bienvenue-sur-notre">
+				<div style="width: 100%;display: flex;justify-content: center;flex-direction: column;align-items: center;">
+					<div style="margin-bottom: 60px;"><h1>She.Is.Art</h1></div>
+					<div class="titre">
+					Bienvenue sur notre site de galerie d’art.<br />Ici vous retrouverez toutes les œuvres de notre artiste
+					Sarah G, artiste amateur et passionnée de peinture. Ce site n’a que pour but de partager sa passion et
+					son art avec vous.
+					</div>
+					<div style="display:flex;justify-content: center;"><div style="width: 200px; height: 40px; line-height: 40px; background-color: #fff; text-align: center;color: #000">GALERIE</div></div>
+				</div>
+              </div>
+              <div class="logo">&nsp;</div>
+            </div>
+          </div>
+        </div>
+		<div class="overlap-4" style="flex-wrap: wrap;">
+			<div class="Legende">
+				<img class="IMG" src="img/img-1418-1.png" />	
+					<div class="">SANS CŒUR</div>
+			</div>
+			<div class="Legende">
+				<img class="IMG" src="img/img-1412-1.png" />			
+					<div class="">NUIT ÉTOILÉE</div>
+			</div>
+			<div class="Legende">
+				<img class="IMG" src="img/img-1414-1.png" />			
+					<div class="">LE ROUGE</div>
+			</div>
+		
+		</div>
+		<div class="overlap-4">
+			<div style="width: 100%;display: flex;justify-content: center;flex-direction: column;align-items: center;">
+				<div style="display:flex;justify-content: center;"><div style="  font-weight: 900;color: #000000;font-size: 34px;text-align: center;letter-spacing: -0.65px;line-height: 51px;">BIOGRAPHIE</div></div>
+				<div class="sarah-g-est-une">
+					Sarah G. est une jeune artsite indépendante, passionnée d’art et particulièrement de peinture. Sa passion
+					pour l’art débuta dès son plus jeune âge. Cette dernière lui a été transmise par sa mère.<br/>
+					Notre artiste se démarque des autres, par son style spontané et sa tonalité plutôt sombre.<br/>
+				</div>
+			</div>
+			
+		</div>
+      </div>
+    </div>
+  </body>
 </html>
