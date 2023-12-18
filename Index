@@ -11,9 +11,9 @@
         <div class="overlap-group">
 			<div class="overlap_auto">
 					<div class="overlap-3">
-				<div class="text-wrapper">ACCUEIL</div>
-				<div class="text-wrapper">GALERIE</div>
-				  <div class="text-wrapper">CONTACT</div>
+				<a href="index.html"><div class="text-wrapper">ACCUEIL</div></a>
+				<a href="galerie.html"><div class="text-wrapper">GALERIE</div></a>
+				  <a href="contact.html"><div class="text-wrapper">CONTACT</div></a>
 				</div>
 			</div>
           <div class="overlap">
@@ -27,10 +27,10 @@
 					Sarah G, artiste amateur et passionnée de peinture. Ce site n’a que pour but de partager sa passion et
 					son art avec vous.
 					</div>
-					<div style="display:flex;justify-content: center;"><div style="width: 200px; height: 40px; line-height: 40px; background-color: #fff; text-align: center;color: #000">GALERIE</div></div>
+					<a href="galerie.html"><div style="display:flex;justify-content: center;"><div style="width: 200px; height: 40px; line-height: 40px; background-color: #fff; text-align: center;color: #000">GALERIE</div></div></a>
 				</div>
               </div>
-              <div class="logo">&nsp;</div>
+              <div class="logo"></div>
             </div>
           </div>
         </div>
